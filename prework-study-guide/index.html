@@ -16,34 +16,172 @@
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
-        <p>HTML (Hypertext Markup Language) is composed of elements that give webpages structure.</p>
-        <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
-          <li>HTML elements contain content within an opening tag, < element name >, and a closing tag, < / element name >.</li>
-          <li>HTML elements can contain attributes enclosed within the opening tag.</li>
-          <li>Child elements are elements nested inside other elements.</li>
-          <li>Parent elements are elements that hold all the child elements.</li>
-        </ul>
-
+        <br>
+        <h3>Definitions:</h3>
+          <ul>
+            <li>Hypertext Markup Language (HTML) is composed of elements that give webpages structure.</li>
+            <li>HTML elements contain content within an opening tag, < element name >, and a closing tag, < / element name >.</li>
+            <li>HTML elements can contain attributes enclosed within the opening tag.</li>
+            <li>Child elements are elements nested inside other elements.</li>
+            <li>Parent elements are elements that hold all the child elements.</li>
+          </ul>
+        <br>
+        <h3>Elements:</h3>
+          <ul>
+            <li>The head element contains information about the webpage.</li>
+            <li>The body element represents the visible content shown to the user.</li>
+            <li>!DOCTYPE element declares what type of document to expect when opened.</li> 
+            <li>Title element defines the title of the webpages and is nested in the head.</li>
+            <li>Style element defines CSS styles and is nested in the head.</li>
+            <li>Link element connects external resource to the HTML document and is nested in the head.</li>
+            <li>Meta element defines metadata and is nested in the head.</li>
+            <li>Script element embeds client-side scripts in the HTML document and is nested in the end of the body.</li>
+            <li>Heading elements are denoted by h1, h2, h3, h4, h5, and h6. They represent the level of heading a text block represents.</li>
+            <li>The paragraph element, denoted by p, represents a paragraph or block of text.</li>
+            <li>Unordered lists element is denoted by ul.</li>
+            <li>Ordered lists element is denoted by ol.</li>
+            <li>Each list item is denoted by li and is nested in either ul or ol.</li>
+            <li>Image elements are denoted by img.</li>
+            <li>To create a line break between two blocks of content, use the br element.</li>
+            <li>An anchor element, denoted by a, creates links to a webpage. It includes the href attribute to point to the URL.</li>
+          </ul>
+        <br>
       </section>
+
       <section class="card" id="css-section">
         <h2>CSS</h2>
-        <ul>
-          <li>A margin indicates how much space we want around the outside of an element.</li>
-          <li>A padding indicates how much space we want around the content inside an element.</li>
-        </ul>
+        <br>
+        <h3>Types of CSS:</h3>
+          <ul>
+            <li>Cascading Style Sheets (CSS) is a programming language that defines the style of webpages.</li>
+            <li>Inline CSS is styling an element directly on the HTML file.</li>
+            <li>Internal Style Sheet has CSS rules in the head section of an HTML file.</li>
+            <li>External CSS Style Sheet is a file linked to the head element of an HTML file.</li>
+            <li>Separation of concerns means separating code into different files based on use.</li>
+          </ul>
+        <br>
+        <h3>CSS Rules</h3>
+          <ul>
+            <li>A CSS rule is composed of a selector and declaration(s).</li>
+            <li>A selector defines the element to which the declarations will apply.</li>
+            <li>A declaration in CSS is composed of properties and their values.</li>
+            <li>The * selector applies declarations to all visible elements.</li>
+            <li>A margin is a property that indicates how much space we want around the outside of an element.</li>
+            <li>A padding is a property that indicates how much space we want around the content inside an element.</li>
+          </ul>
+          <br>
       </section>
+
       <section class="card" id="git-section">
         <h2>Git</h2>
+        <br>
+        <h3>Definitions:</h3>
+          <ul>
+            <li>Git is a version control system.</li>
+            <li>GitHub is a web interface for using Git.</li>
+            <li>Repository (repo) is a folder in which all project's files and their version histories are stored.</li>
+            <li>Branch is a version of the repo that allows work to be done without affecting other branches.</li>
+            <li>Fork is a new repository that from a parent repo.</li>
+            <li>Markdown (.md) is a way to write content from plain to formatted text.</li>
+            <li>Pull request (PR) is a request for changes made to a branch to be pulled into another branch.</li>
+            <li>Merge is when after a PR is approved, the commit will be pulled in from one branch to another.</li>
+            <li>Issues permit users to report issues or bugs and track the progress of assigning the fix.</li>
+            <li>Federalist is a platform that deploys a website from a GitHub repository.</li>
+          </ul>
+        <br>
+        <h3>Developing a Website on GitHub:</h3>
+          <ol>
+            <li>Issue will be opened via the project board</li>
+            <li>A new branch will be created from the most recent version of the repo.</li>
+            <li>Commits will be added to their respective branches.</li>
+            <li>Pull requests will be opened for other team members to review changes and discuss commits.</li>
+            <li>Federalist is built. Reviewers will approve or comment on the change. Once the PR is approved, the commits merge into the main branch and are published on the live site.</li>
+          </ol>
+        <br>
+        <h3>Git Commands:</h3>
+        <ul>
+          <li>Git commands begin with git.</li>
+          <li>git status: checks which branch we are currently working on.</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
+          <li>git checkout main: switches to main branch.</li>
+          <li>git add -A: adds all modifications in the current working branch.</li>
+          <li>git commit -m "message": captures a snapshot of the currently staged changes.</li>
+          <li>git pull origin main: pulls from the main branch in the repo.</li>
+          <li>git push origin branch-name: pushes the changes in the local branch to the remote branch.</li>
+        </ul>
+        <br>
       </section>
+
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
+        <br>
+        <h3>Definitions:</h3>
         <ul>
+          <li>JavaScript (JS) is a programming language that can add interactivity to a website.</li>
           <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Declaring a variable: var variable-name;</li>
           <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>JS code runs from the first statement at the top of the page.</li>
         </ul>
-      </section>
+        <br>
+        <h3>Data Types:</h3>
+        <ul>
+          <li>String: A sequence of text. Enclosed within ' ' or " ".</li>
+          <li>Number: Numbers. Not enclosed within quotes.</li>
+          <li>Boolean: True or False. Not enclosed within quotes.</li>
+          <li>Array: Stores multiple values in a single reference. </li>
+          <ul>
+            <li>Enclosed within [ , , ].</li>
+            <li>A single value in the array is called an index.</li>
+            <li>variable-name[0],variable-name[1],...</li>
+          </ul>
+        </ul>
+        <br>
+        <h3>Operators:</h3>
+        <ul>
+          <li>Addition (+): Adds two numbers or combines two strings together.</li>
+          <li>Subtration (-)</li>
+          <li>Multiplication (*)</li>
+          <li>Division (/)</li>
+          <li>Assignment (=)</li>
+          <li>String Equality (===): Tests if two values are equal and of the same data type. Returns Boolean value.</li>
+          <li>Not (!): Returns the logically opposite value of what it precedes.</li>
+          <li>Does-Not-Equal (!==): Tests whether two values are not equal. Returns Boolean value.</li>
+        </ul>
+        <br>
+        <h3>Conditionals:</h3>
+        <ul>
+          <li>Conditionals are code structures used to test if an expression returns true or not.</li>
+          <li>Commonly used in the form of if...else statements.</li>
+          <li>In JS, if statements will check if a statement is truthy.If the condition is truthy, it wiill do what is within the curly brackets.</li>
+          <li>If condition isn't true/truthy, then the computer will ignore whatever is in between the curly brackets.</li>
+          <li>Falsy values: 0, -0, on, " ", null, undefined, NaN, false(Boolean).</li>
+          <li>If a value is not falsy, it is considered truthy.</li>
+        </ul>
+        <br>
+        <h3>Functions:</h3>
+        <ul>
+          <li>Functions are a way of packaging functionality that wish to reuse.</li>
+          <li>There are some built-in functions in the system and there are defined functions.</li>
+          <li>It is important to not only declare the function, but to call the function to use it.</li>
+          <li>function function-name(argument){<br> //code block}</li>
+          <li>console.log function: output a message to web console by adding an argument.</li>
+          <li>math.random function: selects a random number.</li>
+        </ul>
+        <br>
+        <h3>Events</h3> 
+        <ul>
+          <li>Code structures that listen for activity in the browser and run code in response.</li>
+        </ul>
+        <br>
+        <h3>For Loop:</h3>
+        <ul>
+          <li>Performs code within curly brackets as long as conditions are met.</li>
+          <li>Conditions: Starting point, condition, iterations.</li>
+          <li>for (var x=0; x < variable.length; x++) {<br> //code block}</li>
+        </ul>
+        <br>
+      </section> 
 
     </main>
 
