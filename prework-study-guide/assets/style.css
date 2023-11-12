@@ -24,7 +24,9 @@ img {
     margin-right: auto;
 }
 
-ul {
+ul,
+ol,
+h3{
     padding-left: 40px;
     font-size: 20px;
 }
